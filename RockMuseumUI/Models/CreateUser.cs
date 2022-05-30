@@ -12,21 +12,7 @@ namespace RockMuseumUI.Models
         public string FirstName { get; internal set; }
         public string LastName { get; internal set; }
 
-        internal CreateUser CreateProfile(User user, Guid guid, Type type)
-        {
-            throw new NotImplementedException();
-        }
 
-        internal void RecompileItemUrls(CreateUser uiProfile)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
-    }
 
         public partial class ManagingUsers
         {
@@ -59,6 +45,21 @@ namespace RockMuseumUI.Models
 
             }
             return status;
+        }
+    }        
+        internal CreateUser CreateProfile(User user, Guid guid, Type type)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void RecompileItemUrls(CreateUser uiProfile)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void SaveChanges()
+        {
+            throw new NotImplementedException();
         }
     }
     }

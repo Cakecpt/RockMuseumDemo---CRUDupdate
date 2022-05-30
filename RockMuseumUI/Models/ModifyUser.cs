@@ -9,9 +9,7 @@ namespace RockMuseumUI.Models
 {
    
     public class ModifyUser
-      
     {
-        
         public partial class ManagingUsers
         {
             public static void ModifyUser(string username, string newEmail)
